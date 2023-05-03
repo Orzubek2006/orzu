@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #16151a;
+}
+.contayner{
+    width: 1700px;
+    height: auto;
+    margin: 50px auto;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.contayne{
+    width: 1700px;
+    height: auto;
+    margin: 50px auto;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .header_block{
+        width: 1700px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #16151a;
+        position: fixed;
+        top: 0;
+        left: 0 auto;
+        z-index: 100;
+    }
+    .logo{
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+
+    }
+}
+.wrapper{
+    width: 100%;
+    height: 400px;
+    margin: 20px;
+    position: relative;
+    background: url();
+    .img2{
+        position: absolute;
+        top: 170px;
+        right: 50px;
+    }
+    .img3{
+        position: absolute;
+        top: 20px;
+        right: 65px;
+    }
+
+}
+.slayder_block{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .img1{
+        position: absolute;
+        top: 70px;
+        left: 30px;
+    }
+    .img4{
+        position: absolute;
+        top: 70px;
+        right: 340px;
+    }
+    .img5{
+        position: absolute;
+        top: 500px;
+        left: 30px;
+    }
+    .img6{
+        position: absolute;
+        top: 300px;
+        right: 20px;
+    }
+    .img16{
+        position: absolute;
+
+    }
+}
+.slayder_block{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    .img7{
+        position: absolute;
+        top: 70px;
+        left: 0;
+    }
+    .img8{
+        position: absolute;
+        top: 30px;
+        left: 250px;
+    }
+    .img9{
+        position: absolute;
+        top: 90px;
+        right: 200px;
+    }
+    .img10{
+        position: absolute;
+        top: 190px;
+        right: 0;
+    }
+}
+.slayder_block{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin: 20px;
+    .img11{
+        position: absolute;
+        top: 120px;
+        left: 0;
+    }
+    .img12{
+        position: absolute;
+        top: 320px;
+        left: 0;
+    }
+    .img13{
+        position: absolute;
+    }
+    .img14{
+        position: absolute;
+        top: 430px;
+        left: 0;
+    }
+    .img15{
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        top: 30px;
+        right: 100px;
+    }
+}
+.slayder_block{
+    position: relative;
+    .img17{
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+    .img18{
+        display: flex;
+        position: absolute;
+        top: 200px;
+        left: 50px;
+    }
+    .img19{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 160px;
+        position: absolute;
+        top: 255px;
+        left: 125px;
+    }
+    .img20{
+        position: absolute;
+        top: 10px;
+        right: 60px;
+    }
+}
+.box{
+    position: absolute;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu{
+    width: 50px;
+    height: 900px;
+    left: 50px;
+    background-color: #16151a;
+    position: relative;
+    .vec1{
+        position: absolute;
+        top: 600px;
+        left: 15px;
+    }
+    .vec2{
+        position: absolute;
+        top: 750px;
+        left: 10px;
+    }
+}
+.slayder_block{
+    position: relative;
+    .img21{
+        position: absolute;
+        top: 0;
+        left: 950px;
+    }
+    .img22{
+        position: absolute;
+        top: 150px;
+        left: 950px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .img23{
+        position: absolute;
+        top: 200px;
+        left: 950px;
+    }
+    .img24{
+        position: absolute;
+        top: 300px;
+        left: 950px;
+    }
+    .img25{
+        position: absolute;
+        top: 420px;
+        left: 950px;
+    }
+    .img26{
+        position: absolute;
+        top: 520px;
+        left: 950px;
+    }
+}
+.slayder_block{
+    position: relative;
+    .car{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        img{
+            width: 550px;
+        }
+    }
+}
+.slayder_block{
+    position: relative;
+    .wall{
+        
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        img{
+            width: 400px;
+            height: 500px;
+        }
+    }
+    .sw{
+        position: absolute;
+        left: 700px;
+    }
+
+}
+.slayder_block{
+    position: relative;
+    .df{
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        position: absolute;
+        top: 300px;
+    }
+    .as{
+        width: 200px;
+        display: grid;
+        gap: 40px;
+        position: absolute;
+        top: 300px;
+        left: 1000px;
+    }
+
+}
+
